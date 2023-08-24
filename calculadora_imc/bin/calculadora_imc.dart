@@ -1,5 +1,6 @@
-import 'package:calculadora_imc/calculadora_imc.dart' as calculadora_imc;
+import 'package:calculadora_imc/classes/person.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${calculadora_imc.calculate()}!');
+  var m = Person('Michel', 95, 175);
+  print(m);
 }
